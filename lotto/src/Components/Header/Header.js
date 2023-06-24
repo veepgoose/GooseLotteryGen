@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
     return (
       <header className="header">
-        <h1>High Goose Lottery</h1>
+        <h1>High Goose Lottery Bollocks</h1>
       </header>
     );
   }

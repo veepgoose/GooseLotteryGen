@@ -1,17 +1,21 @@
+.footer {
+  background-color: #EDE768;
+  color: #83D4D4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0px;
+}
 
-.App-footer {
-    background-color: #282c34;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-  
-  .App-footer h1 {
-    margin: 0;
-    line-height: 1.5;
-  }
-  
+.footer-inner {
+  height: 100px;
+  color: #83D4D4;
+  text-align: center;
+  border-top: 10px solid #FFAAEA;
+  border-bottom: 10px solid #83D4D4;
+  border-left: 10px solid #83D4D4;
+  border-right: 20px solid #83D4D4;
+}
+
+    

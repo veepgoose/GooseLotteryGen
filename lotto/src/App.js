@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
+import Card from './Components/Card/Card.js';
 
 function App() {
   return (
     <div className="App">
       <Header className="header">
+    
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           I swear to god why is this so hard. FML
@@ -20,8 +22,9 @@ function App() {
           Learn Fucking React
         </a>
       </Header>
+    
       <div className="content">
-        {/* Middle content section */}
+      <Card/>
       </div>
       <Footer />
     </div>

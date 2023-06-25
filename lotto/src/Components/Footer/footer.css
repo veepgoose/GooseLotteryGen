@@ -9,13 +9,14 @@
 }
 
 .footer-inner {
-  height: 100px;
+  height: auto; /* change height to auto */
   color: #83D4D4;
   text-align: center;
-  border-top: 10px solid #FFAAEA;
+  /* border-top: 10px solid #FFAAEA; */
   border-bottom: 10px solid #83D4D4;
   border-left: 10px solid #83D4D4;
   border-right: 10px solid #83D4D4;
+  padding: 10px; /* added some padding too */
 }
 
     

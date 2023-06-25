@@ -1,0 +1,38 @@
+.App {
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+.card {
+
+
+    /* Card size */
+    width: 20%;
+    height: 400px;
+
+    /* Card position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    /* Card border */
+    border: 20px solid #FFAAEA;
+    border-radius: 5px;
+
+    /* Card background */
+    background-color: #E9F4F8;
+
+    /* Card shadow */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    /* Card text */
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: #534D56;
+}

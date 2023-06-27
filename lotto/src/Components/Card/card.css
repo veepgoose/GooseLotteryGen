@@ -1,10 +1,4 @@
-.App {
-   
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+
 
 .card {
 
@@ -12,6 +6,7 @@
     /* Card size */
     width: 20%;
     height: 400px;
+    margin: 0 auto;
 
     /* Card position */
     position: absolute;

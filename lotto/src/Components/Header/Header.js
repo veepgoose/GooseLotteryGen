@@ -2,9 +2,9 @@ import React from 'react';
 import './Header.css'
 import gooseLogo from './gooseLogo.png';
 
-function Header() {
+function Header(props) {
     return (
-      <header className="header">
+      <header className={props.className}>
       <img src={gooseLogo} alt="Goose logo" className="gooseLogo"/>
        
       </header>

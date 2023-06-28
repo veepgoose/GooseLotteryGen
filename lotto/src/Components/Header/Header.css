@@ -10,7 +10,7 @@
 }
 
 
-
+/* Need to adjust the width of the header, to stop side scroll */
 .header {
     background-color: #FFAAEA;
     height: 150px;

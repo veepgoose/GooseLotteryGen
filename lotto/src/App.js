@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer.js';
 import Card from './Components/Card/Card.js';
 import Results from './Components/Results/Results.js';
 import { useEffect, useState } from 'react';
+import LotteryGenerator from './Components/LotteryGenerator.js';
 
 
 function App() {
@@ -39,10 +40,15 @@ function App() {
           Learn Fucking React
         </a>
       </Header>
+
+      <div>
+        <h1>Lottery Generator App</h1>
+        <LotteryGenerator />
+      </div>
     
       <div className="content">
         <Card/>
-        <Results numbers={lotteryNumbers}/>
+       
       </div>
       {showFooter && <Footer className="footer" />}
       

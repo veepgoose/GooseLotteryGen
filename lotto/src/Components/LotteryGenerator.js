@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import './LotteryGenerator.css';
 
-const LotteryGenerator = () => {
+const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
   const [name, setName] = useState('');
   const [answer, setAnswer] = useState(false);
   const [generatingNumbers, setGeneratingNumbers] = useState(false);
-  const [lotteryNumbers, setLotteryNumbers] = useState([]);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -34,47 +34,56 @@ const LotteryGenerator = () => {
     }
 
     generatedNumbers.sort((a, b) => a - b);
-    setLotteryNumbers(generatedNumbers);
+    onLotteryNumbers(generatedNumbers);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (generatingNumbers) {
+    if (name && answer && generatingNumbers) {
       generateLotteryNumbers();
+      onSubmission();
     }
   };
 
   return (
-    <div>
+    <div className="generator-container">
       <form onSubmit={handleSubmit}>
         <label>
-          Name:
-          <input type="text" value={name} onChange={handleNameChange} />
+          <input
+            className="name-input"
+            type="text"
+            placeholder="Gimme your name!"
+            value={name}
+            onChange={handleNameChange}
+          />
         </label>
         <br />
-        <label>
-          Are you ready?
-          <input type="checkbox" checked={answer} onChange={handleAnswerChange} />
+        <label className="q1">
+          Are you ready to bow down to The High Goose?
+          <input
+            type="checkbox"
+            className="checkbox"
+            checked={answer}
+            onChange={handleAnswerChange}
+          />
         </label>
         <br />
-        <label>
-          Generate numbers?
-          <input type="checkbox" checked={generatingNumbers} onChange={handleGeneratingNumbersChange} />
+        <br />
+        <label className="q2">
+          Do you agree to give up your first born child?
+          <input
+            type="checkbox"
+            className="checkbox"
+            checked={generatingNumbers}
+            onChange={handleGeneratingNumbersChange}
+          />
         </label>
         <br />
-        <button type="submit">Submit to the High Goose</button>
+        <br />
+        <button className="submit-button" type="submit">
+          SUBMIT TO THE HIGH GOOSE
+        </button>
       </form>
-      {/* Render the lottery numbers if the user has checked the box */}
-      {lotteryNumbers.length > 0 && (
-        <div className="results">
-          <h2>Lottery Numbers</h2>
-          <ul>
-            {lotteryNumbers.map((number) => (
-              <li key={number}>{number}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };

@@ -1,0 +1,115 @@
+.name-input {
+    width: 50%;
+    height: 30px;
+    border: solid #FFAAEA;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #83D4D4;
+    color: #E9F4F8;
+}
+
+.name-input::placeholder {
+    color: #E9F4F8;
+}
+
+ .q1 {
+   
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+   
+    color: #534D56;
+ }
+
+ .q2 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+   
+    color: #534D56;
+ }
+
+ input[type="checkbox"] {
+    outline: 2px solid #FFAAEA;
+    background-color: #EDE768;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+  }
+  
+ .submit-button {
+    width: 65%;
+    height: 50px;
+    border: solid #FFAAEA;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    background-color: #83D4D4;
+    color: #E9F4F8;
+ }
+
+ .generator-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .generator {
+  
+    /* Card size */
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+  
+    /* Card position */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-114%, 40%);
+  
+    /* Card border */
+    border: 20px solid #FFAAEA;
+    border-radius: 5px;
+  
+    /* Card background */
+    background-color: #E9F4F8;
+  
+    /* Card shadow */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+    /* Card text */
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: #534D56;
+  }
+  
+  .name-field {
+    width: 50%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #83D4D4;
+    color: #E9F4F8;
+  }
+  
+  .name-field::placeholder {
+    color: #E9F4F8;
+ }

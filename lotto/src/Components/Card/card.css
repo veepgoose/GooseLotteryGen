@@ -58,3 +58,22 @@
 .name-field::placeholder {
     color: #E9F4F8;
 }
+
+/* .lottoGen {
+    width: 50%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #83D4D4;
+    color: #E9F4F8;
+} */
+
+.results {
+    font-size: 15px;
+    color: #534D56;
+}

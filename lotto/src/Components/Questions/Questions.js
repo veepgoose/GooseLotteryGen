@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./card.css";
+import "./Questions.css";
 import LotteryGenerator from "../LotteryGenerator";
 
-const Card = ({ onSubmission }) => {
+const Questions = ({ onSubmission }) => {
   const [showResults, setShowResults] = useState(false);
   const [lotteryNumbers, setLotteryNumbers] = useState([]);
 
@@ -44,4 +44,4 @@ const Card = ({ onSubmission }) => {
   );
 };
 
-export default Card;
+export default Questions;

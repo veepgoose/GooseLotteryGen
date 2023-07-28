@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
-import Card from './Components/Card/Card.js';
+import Questions from './Components/Questions/Questions.js';
 
 function App() {
   const [showFooter, setShowFooter] = useState(false);
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header className="header" />
       <div className="content">
-        <Card onSubmission={handleSubmission} />
+        <Questions onSubmission={handleSubmission} />
       </div>
       {showFooter && <Footer className="footer" />}
     </div>

@@ -77,3 +77,16 @@
     font-size: 15px;
     color: #534D56;
 }
+
+.results-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.results-list li {
+    margin: 0 10px;
+    align-items: center;
+}

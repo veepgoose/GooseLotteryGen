@@ -29,9 +29,9 @@ const Questions = ({ onSubmission }) => {
           </div>
         ) : (
           <div className="results">
-            <h2>Lottery Numbers</h2>
+            <h2>Behold! Your winning Lottery Numbers:</h2>
             {lotteryNumbers.length > 0 && (
-              <ul>
+              <ul className="results-list">
                 {lotteryNumbers.map((number) => (
                   <li key={number}>{number}</li>
                 ))}

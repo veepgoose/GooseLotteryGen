@@ -41,7 +41,7 @@ const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
     event.preventDefault();
     if (name && answer && generatingNumbers) {
       generateLotteryNumbers();
-      onSubmission();
+      onSubmission(name);
     }
   };
 

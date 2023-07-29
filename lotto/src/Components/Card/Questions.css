@@ -14,7 +14,7 @@
 
     /* Card size */
     width: 40%;
-    height: 450px;
+    height: 400px;
     margin: 0 auto;
 
     /* Card position */
@@ -76,38 +76,4 @@
 .results {
     font-size: 15px;
     color: #534D56;
-}
-
-.results-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-
-}
-
-.results-list li {
-    margin: 0 10px;
-    align-items: center;
-    color:#E9F4F8;
-    font-size: 20px;
-    background-color:#FFAAEA;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.goose {
-    width: 250px;
-    height: 250px;
-    border-radius: 30px;
-    border: solid 5px #83D4D4;
-    margin-bottom: 40px;
-    
 }

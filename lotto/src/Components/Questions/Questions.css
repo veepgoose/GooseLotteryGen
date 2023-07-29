@@ -90,3 +90,9 @@
     margin: 0 10px;
     align-items: center;
 }
+
+.goose {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}

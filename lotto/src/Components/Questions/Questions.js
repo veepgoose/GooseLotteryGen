@@ -30,6 +30,7 @@ const Questions = ({ onSubmission }) => {
         ) : (
           <div className="results">
             <h2>Behold! Your winning Lottery Numbers:</h2>
+            <img className="goose" src="https://gifdb.com/images/high/dancing-skipping-goose-b9qr0lip9qejhuls.webp" alt="goose" />
             {lotteryNumbers.length > 0 && (
               <ul className="results-list">
                 {lotteryNumbers.map((number) => (

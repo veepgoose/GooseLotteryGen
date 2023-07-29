@@ -14,7 +14,7 @@
 
     /* Card size */
     width: 40%;
-    height: 400px;
+    height: 450px;
     margin: 0 auto;
 
     /* Card position */
@@ -89,10 +89,17 @@
 .results-list li {
     margin: 0 10px;
     align-items: center;
+    color:#E9F4F8;
+    font-size: 20px;
+    background-color:#FFAAEA;
+    border-radius: 100px;
+    padding: 20px;
 }
 
 .goose {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    border: solid 5px #83D4D4;
+    
 }

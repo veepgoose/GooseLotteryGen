@@ -5,8 +5,10 @@ import LotteryGenerator from "../LotteryGenerator";
 const Questions = ({ onSubmission }) => {
   const [showResults, setShowResults] = useState(false);
   const [lotteryNumbers, setLotteryNumbers] = useState([]);
+  const [userName, setUserName] = useState('');
 
-  const handleSubmission = () => {
+  const handleSubmission = (name) => {
+    setUserName(name);
     setShowResults(true);
     onSubmission();
   };
@@ -29,7 +31,7 @@ const Questions = ({ onSubmission }) => {
           </div>
         ) : (
           <div className="results">
-            <h2>Behold! Your winning Lottery Numbers:</h2>
+            <h2>{userName}, Behold! Your winning Lottery Numbers:</h2>
             <img className="goose" src="https://gifdb.com/images/high/dancing-skipping-goose-b9qr0lip9qejhuls.webp" alt="goose" />
             {lotteryNumbers.length > 0 && (
               <ul className="results-list">

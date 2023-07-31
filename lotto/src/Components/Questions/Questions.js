@@ -22,7 +22,7 @@ const Questions = ({ onSubmission }) => {
       <div className="card">
         {!showResults ? (
           <div>
-            <h2>WELCOME</h2>
+            <h2></h2>
             <p>To The High Goose Lottery Number Generator</p>
             <LotteryGenerator
               onSubmission={handleSubmission}

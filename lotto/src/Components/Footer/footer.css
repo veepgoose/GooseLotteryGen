@@ -1,17 +1,21 @@
-/* Remove position: fixed and transform: translateY(100%); */
 .footer {
   background-color: #EDE768;
   color: #83D4D4;
-  padding: 10px;
-  border-top: 10px solid #83D4D4;
+  
+  left: 0;
+  bottom: 0;
   width: 100%;
-  box-sizing: border-box;
+  padding: 0px;
+  position:fixed;
 }
 
 .footer-inner {
-  height: auto;
+  height: auto; /* change height to auto */
   color: #83D4D4;
   text-align: center;
+  /* border-top: 10px solid #FFAAEA; */
+  border-bottom: 10px solid #83D4D4;
+  border-left: 10px solid #83D4D4;
+  border-right: 10px solid #83D4D4;
+  padding: 10px; /* added some padding too */
 }
-
-    

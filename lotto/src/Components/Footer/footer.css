@@ -1,12 +1,13 @@
 .footer {
   background-color: #EDE768;
   color: #83D4D4;
-  
+  padding-top:100px;
+  position:fixed; /* changed to absolute */
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 0px;
-  position:fixed;
+
+
 }
 
 .footer-inner {

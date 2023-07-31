@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import './App.css';
-import Header from './Components/Header/Header.js';
-import Footer from './Components/Footer/Footer.js';
-import Questions from './Components/Questions/Questions.js';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./Components/Header/Header.js";
+import Footer from "./Components/Footer/Footer.js";
+import Questions from "./Components/Questions/Questions.js";
 
 function App() {
   const [showFooter, setShowFooter] = useState(false);
@@ -22,8 +22,6 @@ function App() {
   );
 }
 
+// testing 123
+
 export default App;
-
-
-
-

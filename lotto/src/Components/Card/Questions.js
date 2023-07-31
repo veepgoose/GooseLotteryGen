@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./card.css";
+import "./Questions.css";
 import LotteryGenerator from "../LotteryGenerator";
 
 const Card = ({ onSubmission }) => {

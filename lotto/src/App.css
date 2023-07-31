@@ -1,39 +1,38 @@
-
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #83D4D4;
+  margin: 0; /* Remove default margin to ensure full viewport coverage */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Use min-height: 100vh to cover the whole viewport */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App {
+  flex: 1; /* Expand the App div to take remaining space */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content-wrapper {
+  flex: 1; /* Make the content-wrapper take remaining space */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-y:auto; /* Add a scrollbar to the content-wrapper */
+  padding-bottom: 60px; /* Adjust the value based on your footer's height */
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: #EDE768;
+  color: #83D4D4;
+  padding: 10px;
+  border-top: 10px solid #83D4D4;
+  width: 100%;
+  box-sizing: border-box; /* Ensure the padding and border don't increase the width */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fixed-height-container {
+  height: 500px;  
+  overflow-y: hidden;
 }
 
-
+.generator-container {
+  height: 100%;
+}

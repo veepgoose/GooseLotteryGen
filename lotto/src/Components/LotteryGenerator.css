@@ -1,11 +1,18 @@
+.welcome {
+   padding-top: 20%;
+  
+}
+
+
+
 .name-input {
     width: 50%;
     height: 30px;
     border: solid #FFAAEA;
     border-radius: 10px;
     outline: none;
-    margin-top: 150px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 15px;
     text-align: center;
     background-color: #83D4D4;

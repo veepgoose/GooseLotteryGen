@@ -46,8 +46,14 @@ const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
   };
 
   return (
+    
     <div className="generator-container">
       <form onSubmit={handleSubmit}>
+      <div className="welcome-container">
+      <h2 className="welcome">WELCOME</h2>
+            <p className="welcomeText">To The High Goose Lottery Number Generator</p>
+        </div>
+        <div className="input-container">
         <label>
           <input
             className="name-input"
@@ -83,7 +89,9 @@ const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
         <button className="submit-button" type="submit">
           SUBMIT TO THE HIGH GOOSE
         </button>
+        </div>
       </form>
+      
     </div>
   );
 };

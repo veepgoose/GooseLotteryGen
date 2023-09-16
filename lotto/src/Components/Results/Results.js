@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Questions.css";
+import "./Results.css";
 import LotteryGenerator from "../LotteryGenerator";
 
 const Questions = ({ onSubmission }) => {
@@ -22,8 +22,8 @@ const Questions = ({ onSubmission }) => {
       <div className="card">
         {!showResults ? (
           <div>
-            <h2></h2>
-            <p>To The High Goose Lottery Number Generator</p>
+            {/* <h2 className="welcome">WELCOME</h2>
+            <p className="welcomeText">To The High Goose Lottery Number Generator</p> */}
             <LotteryGenerator
               onSubmission={handleSubmission}
               onLotteryNumbers={handleLotteryNumbers}

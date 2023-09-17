@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+// import Social from '../Social/Social.js';
 
 const Footer = () => {
   return (
@@ -8,6 +9,7 @@ const Footer = () => {
         <div className="footer-inner">
           <h1>Footer Bollocks</h1>
           <p>Created with Your Mom by the Goose Squad</p>
+          {/* <Social /> */}
         </div>
       </footer>
     </div>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Results.css";
 import LotteryGenerator from "../LotteryGenerator";
+import Social from "../Social/Social";
+
 
 const Questions = ({ onSubmission }) => {
   const [showResults, setShowResults] = useState(false);
@@ -41,6 +43,7 @@ const Questions = ({ onSubmission }) => {
               </ul>
             )}
           </div>
+          
         )}
       </div>
     </div>

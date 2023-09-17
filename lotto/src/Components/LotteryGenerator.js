@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './LotteryGenerator.css';
 
+
 const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
   const [name, setName] = useState('');
   const [answer, setAnswer] = useState(false);
@@ -91,8 +92,8 @@ const LotteryGenerator = ({ onSubmission, onLotteryNumbers }) => {
         </button>
         </div>
       </form>
-      
     </div>
+    
   );
 };
 

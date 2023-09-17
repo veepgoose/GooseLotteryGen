@@ -1,0 +1,135 @@
+.Social {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #83D4D4;
+    margin-top: 4rem;
+   
+    
+}
+
+
+#Social {
+   
+    padding-top: 4rem;
+    position: relative;
+  }
+  
+  /* .social-container {
+    position: absolute;
+    right: 100px;
+    height:200px;
+
+  }
+   */
+ 
+  .social-row {
+    position: relative;
+  }
+  
+  .social-content {
+   
+     display: flex;
+    
+    
+  }
+  
+  .social-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 22rem;
+    gap: 4rem;
+    padding: 0 1rem;
+   
+  
+  }
+  
+
+  
+  .social-slider::-webkit-scrollbar {
+    height: 2rem;
+   
+  }
+  
+  .social-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    width: 120px;
+    height: 130px;
+    background: #FB6FC6;
+    box-shadow: 0 1.25rem 2rem#FFAAEA;
+    position: relative;
+    transition: all 0.15s ease-in-out;
+    color: #534D56; 
+  }
+  
+  .social-card:hover {
+    scale: 0.85;
+    box-shadow: 0 2rem 3rem #83D4D4;
+  }
+  
+  .social-card img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 70px;
+    z-index: 1;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .social-card:hover img {
+    scale: 2;
+    transform: translateY(-1.5rem);
+  }
+  
+  .social-card .social-name {
+    position: absolute;
+    font-size: 20px;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.15s ease-in;
+  }
+  
+  .social-card:hover .social-name {
+    display: block;
+    transform: translateY(6rem);
+    opacity: 1;
+  }
+  
+
+  
+ 
+  
+  @media screen and (max-width: 1023px) {
+  
+  }
+  
+ 
+  
+  
+
+  @media only screen and (max-width: 390px) {
+
+    .Social {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #83D4D4;
+        margin-top: 4rem;
+        
+        
+       
+        
+    }
+
+  }

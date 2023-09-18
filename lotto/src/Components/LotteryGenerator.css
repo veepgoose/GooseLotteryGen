@@ -178,3 +178,63 @@
 
       
  }
+
+ @media only screen and (max-width: 1600px) {
+  .generator {
+    width: 100%;
+    
+}
+.name-field {
+    width: 50%;
+    
+    
+}
+.name-input {
+    width: 40%;
+    
+}
+.q1 {
+    width: 100%;
+    font-size: 0.9em;
+    text-align:center;
+}
+.q2 {
+    width: 100%;
+    font-size: 0.9em;
+}
+.submit-button {
+    width: 30%;
+    font-size: 0.8em;
+}
+
+  .generator-container {
+    position: absolute;
+    width: 80%;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, -53%);
+  }
+
+
+
+  .welcome {
+     font-size: 1.5em;
+     margin-top: 70%;
+     padding-top: 55%;
+     
+    
+     
+   }
+  
+
+   /* .welcomeText {
+     font-size: 1em;
+     margin-bottom: -40%;
+     } */
+
+     
+
+ 
+
+
+ }

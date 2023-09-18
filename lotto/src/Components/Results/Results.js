@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Results.css";
 import LotteryGenerator from "../LotteryGenerator";
-import Social from "../Social/Social";
+// import Social from "../Social/Social";
 
 
 const Questions = ({ onSubmission }) => {

@@ -20,9 +20,30 @@
   padding: 10px; /* added some padding too */
 }
 
+.coffee {
+  color: #534D56;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+
 @media only screen and (max-width: 390px) {
   .footer {
     width: 110%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    width: 50%;
+    
+  }
+
+  .coffee {
+    color: #534D56;
+    text-align: center;
+    font-size: 0.8rem;
+    
   }
 }
 

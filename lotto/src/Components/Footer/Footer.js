@@ -1,15 +1,14 @@
 import React from 'react';
 import './footer.css';
-// import Social from '../Social/Social.js';
+import Social from '../Social/Social.js';
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer">
         <div className="footer-inner">
-          <h1>Footer Bollocks</h1>
-          <p>Created with Your Mom by the Goose Squad</p>
-          {/* <Social /> */}
+          <p className="coffee">If you win the Jackpot, you're welcome to Buy Me A Coffee ;)</p> 
+          <Social />
         </div>
       </footer>
     </div>

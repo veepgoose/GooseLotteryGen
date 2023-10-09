@@ -29,15 +29,15 @@
 
 @media only screen and (max-width: 390px) {
   .footer {
-    width: 110%;
+    width: 130%;
   }
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .footer {
     width: 100%;
     
-  }
+  } */
 
   .coffee {
     color: #534D56;
